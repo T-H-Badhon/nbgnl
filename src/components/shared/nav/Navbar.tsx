@@ -5,7 +5,7 @@ import NavMenu from "./NavMenu";
 
 const Navbar = () => {
   return (
-    <div className=" flex justify-between items-center bg-white mx-8 my-5  px-8 rounded-2xl ">
+    <div className=" flex justify-between items-center bg-white mx-8   px-8 rounded-2xl ">
       <div>
         <Image
           src={"https://nbgnl.com/wp-content/uploads/2019/10/gnl-logo.png"}
