@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import SecondNavber from "./SecondNavber";
 import MobileNav from "./MobileNav";

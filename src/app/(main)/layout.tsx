@@ -1,7 +1,4 @@
-import MobileNav from "@/components/shared/nav/MobileNav";
-import Navbar from "@/components/shared/nav/Navbar";
 import NavigationSection from "@/components/shared/nav/NavigationSection";
-import SecondNavber from "@/components/shared/nav/SecondNavber";
 import React from "react";
 
 const Mainlayout = ({ children }: { children: React.ReactNode }) => {

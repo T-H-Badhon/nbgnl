@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { HiBars3BottomRight } from "react-icons/hi2";
 import NavDrawer from "./NavDrawer";
 
 const MobileNav = () => {
