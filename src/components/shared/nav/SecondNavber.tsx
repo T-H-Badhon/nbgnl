@@ -5,7 +5,7 @@ import NavMenu from "./NavMenu";
 
 const SecondNavber = ( {show}:{show:boolean}) => {
     return (
-      <div className={` ${show? "-translate-y-0 transition-transform duration-500": "-translate-y-24 transition-transform duration-500"} fixed w-[calc(100%-64px)] flex justify-between items-center bg-white mx-8  px-8 rounded-b-2xl `}>
+      <div className={` ${show? "-translate-y-0 transition-transform duration-500": "-translate-y-24 transition-transform duration-500"} fixed z-50 w-[calc(100%-64px)] flex justify-between items-center bg-white mx-8  px-8 rounded-b-2xl `}>
         <div className="pt-2">
           <Image
             src={"https://nbgnl.com/wp-content/uploads/2019/10/gnl-logo.png"}
